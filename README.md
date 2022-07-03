@@ -17,9 +17,53 @@ A simple template to start your new React v18 TypeScript project. It includes so
 ## How to use
 Just click in `Use this template` in order to start your new project with this code.
 
-> Obs.: before using it, run ```yarn prepare``` in order to install Husky.
+### Install dependencies
+After that, change directory into the project:
+```bash
+cd react-18-typescript/
+```
+and run 
+```bash 
+yarn
+```
+in order to install packages dependencies.
 
-> Also, if the hooks don't work, you have to make them executable by running `chmod +x ./husky/pre-commit` and `chmod +x ./husky/pre-push` or delete both of them and then run `npx husky add .husky/pre-commit "yarn lint-staged"` and `npx husky add .husky/pre-push "yarn test:cov" `
+---
+
+### Husky
+Run 
+```bash
+yarn prepare
+```
+in order to install Husky. And, if the hooks don't work, you have to make them executable by running
+```bash
+chmod +x ./husky/pre-commit
+# and
+chmod +x ./husky/pre-push
+```
+or delete both of them and then run
+```bash
+npx husky add .husky/pre-commit "yarn lint-staged"
+# and
+npx husky add .husky/pre-push "yarn test:cov"
+```
+---
+
+### Running
+To run the application in the <b>development</b> mode:
+```bash
+yarn start:dev
+```
+To run the application in the <b>production</b> mode:
+```bash
+yarn build
+# and
+yarn start
+```
+
+For <b>Development</b> the application will be available at `https://localhost:3000/`; <b>Production</b> mode will be at `http://localhost:3000/`.
+
+---
 
 ## Tree Hierarchy
 It makes use of the concept of Clean Code Architecture in order to build a more reliable and maintainable application.
