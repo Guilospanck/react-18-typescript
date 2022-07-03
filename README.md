@@ -19,6 +19,8 @@ Just click in `Use this template` in order to start your new project with this c
 
 > Obs.: before using it, run ```yarn prepare``` in order to install Husky.
 
+> Also, if the hooks don't work, you have to make them executable by running `chmod +x ./husky/pre-commit` and `chmod +x ./husky/pre-push` or delete both of them and then run `npx husky add .husky/pre-commit "yarn lint-staged"` and `npx husky add .husky/pre-push "yarn test:cov" `
+
 ## Tree Hierarchy
 It makes use of the concept of Clean Code Architecture in order to build a more reliable and maintainable application.
 
