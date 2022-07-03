@@ -17,6 +17,8 @@ A simple template to start your new React v18 TypeScript project. It includes so
 ## How to use
 Just click in `Use this template` in order to start your new project with this code.
 
+> Obs.: before using it, run ```yarn prepare``` in order to install Husky.
+
 ## Tree Hierarchy
 It makes use of the concept of Clean Code Architecture in order to build a more reliable and maintainable application.
 
