@@ -1,8 +1,8 @@
 {
-  "name": "guilospanck-github-io",
+  "name": "react-18-typescript",
   "version": "1.0.0",
   "homepage": ".",
-  "repository": "https://github.com/Guilospanck/guilospanck.github.io.git",
+  "repository": "https://github.com/Guilospanck/react-18-typescript.git",
   "author": "Guilherme Rodrigues <guilospanck@protonmail.com>",  
   "scripts": {
     "start": "NODE_ENV=production cd build/ && npx http-server --port 3000 -a localhost --proxy http://localhost:3000? .",
